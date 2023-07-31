@@ -10,6 +10,7 @@ Description:
 By leveraging the Office 365 Excel URI scheme in a malicious HTML document that includes an <\a> HTML element, either one pre-defined "href" value can be placed as follows:
 
 ms-excel:%appdata%/../../Downloads/malicious_excel_file.xls
+
 ms-excel:%localappdata%/../../Downloads/malicious_excel_file.xls
 
 With a little help of a JavaScript function that automatically clicks the <\a> element, the browser will automatically download the potential malicious excel file, prompting a pop-up window to open the malicious_excel_file.xls.
