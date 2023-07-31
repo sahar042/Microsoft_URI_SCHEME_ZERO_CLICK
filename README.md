@@ -3,7 +3,7 @@
 Summary:
 
 The binary "protocolhandler.exe" which handles the logic of URI Scheme-based Microsoft Office files, fails to filter two different default Windows Environment Variables (%appdata% and %localappdata%), allowing an attacker to trick a user into automatically downloading and executing an Excel file from the browser to the default Downloads folder and opening a malicious file.
-This can be useful for an attacker to use other known and unknown CVEs in the same program in order to execute arbitrary code within the application context.
+This can be useful for an attacker to use other known and unknown vulnerabilities in the excel program in order to execute arbitrary code within the application context.
 
 Description:
 
