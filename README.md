@@ -1,4 +1,4 @@
-# Microsoft_URI_SCHEME_RCE
+# Microsoft_URI_SCHEME_ZERO_CLICK
 
 Summary:
 
