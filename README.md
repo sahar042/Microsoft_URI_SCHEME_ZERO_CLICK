@@ -37,7 +37,7 @@ Testing Browsers (Last build version of all of them): Google Chrome, Mozilla Fir
 
 Operating System: Windows 10 version 21H1 (OS Build 19043.1348) (64-bit)
 
-Microsoft's response to this vulnerability 😂:
+Microsoft's response to this vulnerability:
 ![alt text](https://github.com/sahar042/Microsoft_URI_SCHEME_RCE/blob/main/microsoft_answer.png?raw=true)
 
 Microsoft has released a patch for the latest versions (but don't worry, there's no risk!) 🙃:
