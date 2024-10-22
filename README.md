@@ -40,7 +40,7 @@ Operating System: Windows 10 version 21H1 (OS Build 19043.1348) (64-bit)
 Microsoft's response to this vulnerability:
 ![alt text](https://github.com/sahar042/Microsoft_URI_SCHEME_RCE/blob/main/microsoft_answer.png?raw=true)
 
-Microsoft has released a patch for the latest versions (but don't worry, there's no risk!) 🙃:
+Microsoft has released a patch on the latest version:
 
 ![alt text](https://github.com/sahar042/Microsoft_URI_SCHEME_RCE/blob/main/microsoft_patch_alert_poc%231.jpg?raw=true)
 ![alt text](https://github.com/sahar042/Microsoft_URI_SCHEME_RCE/blob/main/microsoft_patch_alert_poc%232.jpg?raw=true)
